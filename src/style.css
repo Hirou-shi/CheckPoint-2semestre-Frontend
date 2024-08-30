@@ -42,7 +42,7 @@ nav ul {
   background-color: white;
   border-radius: 50px;
   padding: 0.1em;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 0px 0px 1px 0px;
   width: 450px;
   gap: 0.3rem;
   cursor: pointer;
@@ -96,7 +96,7 @@ nav ul li{
   width: 60px;
   background-color: white;
   border-radius: 50px;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 0px 0px 1.5px 0px;
   cursor: pointer;  
 }
 
@@ -197,7 +197,7 @@ nav ul li{
 }
 
 .titulo-produto-airbnb{
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .titulo-produto-airbnb h1{
@@ -214,7 +214,14 @@ nav ul li{
   align-items: center;
   font-size: 22px;
   gap: 5px;
-  
+}
+
+.avaliacao-produto h6{
+  display: flex;
+}
+
+.avaliacao-produto h6 span{
+  text-decoration: underline;
 }
 
 .anfitriao{
@@ -223,7 +230,7 @@ nav ul li{
   align-items: center;
   width: 300px;
   gap: 20px;
-  padding: 32px 0px 32px 0px;
+  padding: 5px 0px 5px 0px;
 }
 
 .anfitriao h6{
@@ -348,6 +355,10 @@ span{
   flex-direction: column;
 }
 
+.avaliacao-produto span{
+  display: flex;
+}
+
 .recepcao-anfitriao-card{
   padding: 30px;
 }
@@ -375,10 +386,6 @@ span{
 .apresentacao-anfitriao{
   width: 720px;
   display: flex;
-}
-
-.avaliacao-produto{
-  padding-top: 32px;
 }
 
 .img-av-produto, .texto-av-produto{
