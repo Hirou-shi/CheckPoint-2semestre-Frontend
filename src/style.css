@@ -550,7 +550,10 @@ span{
   width: 210px;
 }
 
-
+.riscar{
+  font-weight: normal;
+  text-decoration: line-through;
+}
 
 
 
