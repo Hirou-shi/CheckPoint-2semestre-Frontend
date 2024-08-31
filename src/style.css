@@ -408,6 +408,8 @@ span{
 
 .comentarios-produto{
   margin-top: 32px;
+  display: flex;
+  width: 1080px;
 }
 
 .img-comentario img{
@@ -559,7 +561,16 @@ span{
   text-decoration: line-through;
 }
 
+.comentario-produto-container{
+  display: grid;
+  grid-column: repeat(4, 200px);
+  grid-row: repeat(2,200px);
+  grid-template-columns: 50% 50%;
+}
 
+.comentario-esquerda{
+  width: 540px;
+}
 
 
 
