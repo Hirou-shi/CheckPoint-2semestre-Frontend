@@ -386,6 +386,7 @@ span{
 .apresentacao-anfitriao{
   width: 720px;
   display: flex;
+  padding: 32px 0px 32px 0px;
 }
 
 .img-av-produto, .texto-av-produto{
@@ -464,3 +465,85 @@ span{
   justify-content: space-between;
   height: 40vh;
 }
+
+.tipo-acomodacao{
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0px 50px 0px;
+  gap: 30px;
+  width: 700px;
+  font-size: 22px;
+}
+
+.tipo-acomodacao h2{
+  color: #222222;
+}
+
+.quartos{
+  display: flex;
+  gap: 60px;
+  margin: 20px;
+  width: 600px ;
+  overflow-x: auto ;
+}
+
+
+.quartos::-webkit-scrollbar-thumb {
+  background-color: #6A6A6A; 
+  border-radius: 10px;
+}
+
+
+.quartos::-webkit-scrollbar{
+  width: 0;
+  height: 6px;
+}
+
+.quartos::-webkit-scrollbar-thumb:hover {
+  background-color: #302e2e;
+}
+
+.quartos .quarto{
+  min-width: 200px;
+  height: auto;
+  line-height: 50px;
+  text-align: start;
+  margin-right: 2px;
+}
+
+.quarto{
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.quarto p{
+  font-size: 20px;
+  color: #222222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
