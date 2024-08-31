@@ -472,7 +472,6 @@ span{
   margin: 70px 0px 50px 0px;
   gap: 30px;
   width: 700px;
-  font-size: 22px;
 }
 
 .tipo-acomodacao h2{
@@ -508,23 +507,48 @@ span{
   height: auto;
   line-height: 50px;
   text-align: start;
-  margin-right: 2px;
 }
 
 .quarto{
-  font-size: 22px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 
 .quarto p{
-  font-size: 20px;
+  font-size: 16px;
   color: #222222;
 }
 
+.comodidades-produto-container p{
+  color: #222;
+}
+
+.title-comodidade{
+  width: 300px;
+  display: flex;
+  padding: 32px 0px 32px 0px;
+  text-align: center;
+}
 
 
+.comodidades{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 700px;
+}
+
+.comodidades-esquerda .comodidade, .comodidade-direita .comodidade{
+  gap: 20px;
+  padding: 15px 0px 15px 0px;
+  align-items: center;
+  display: flex;
+}
+
+.comodidade-direita p, .comodidades-esquerda p{
+  color: #222;
+  width: 210px;
+}
 
 
 
