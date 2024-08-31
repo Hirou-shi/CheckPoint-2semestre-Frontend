@@ -573,10 +573,32 @@ span{
 }
 
 
+.container-regras-casa{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding: 0px 0px 40px 0px;
+  height: 40vh;
+}
+
+.container-regras-casa ul li, h3, p{
+  list-style: none;
+  padding: 8px 0px 8px 0px;
+  color: #222222;
+}
+
+.container-regras-casa h3{
+  padding-top: 40px;
+  font-size: 18px;
+}
 
 
 
-
+.setas-regras{
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-weight: bold;
+}
 
 
 
