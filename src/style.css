@@ -196,7 +196,7 @@ nav ul li{
 
 
 .container-textos{
-  width: 200px;
+  width: 700px;
   flex-direction: column;
   align-self: start;
   justify-content: start;
@@ -216,7 +216,7 @@ nav ul li{
 }
 
 .avaliacao-produto{
-  padding: 32px 0px 32px 0px;
+  padding: 0px 0px 32px 0px;
 }
 
 .avaliacao-produto{
@@ -377,7 +377,7 @@ span{
   padding: 32px 0px 32px 0px;
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: auto;
   gap: 25px;
   font-size: 18px;
 }
