@@ -52,7 +52,9 @@ nav ul {
   cursor: pointer;
   font-weight: bold;
   font-size: 18px;
+  color: #222222;
 }
+
 
 .hospedes{
   display: flex;
