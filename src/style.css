@@ -494,6 +494,21 @@ span{
   font-weight: normal;
 }
 
+.todos-comodidades{
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  border: 1px solid #222222;
+  width: 300px;
+  border-radius: 8px;
+  color: #222222dc;
+  cursor: pointer;
+  font-weight: normal;
+  margin-top: 32px
+}
+
 .tipo-acomodacao{
   display: flex;
   flex-direction: column;
