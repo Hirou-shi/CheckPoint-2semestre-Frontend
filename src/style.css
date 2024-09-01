@@ -112,6 +112,12 @@ nav ul li{
   width: 1250px;
 }
 
+.separar-transl-title{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .box-title {
   display: flex;
   margin-top: 30PX;
