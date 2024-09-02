@@ -7,7 +7,7 @@ body {
 }
 
 
-a, h1{
+a, h1, h2{
   color: #222222;
 }
 
@@ -828,4 +828,21 @@ font-weight: 200;
 
 .hospede-box-unit{
   font-size: 10px;
+}
+
+.localizacao{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.localizacao span{
+  font-size: 18px;
+  font-weight: 200;
+  gap: 3px;
+}
+
+span .loc-saiba-mais{
+  text-decoration: underline;
+  font-weight: 600;
 }
