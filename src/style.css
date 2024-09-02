@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 } 
 body {
   font-family: "Robot", sans-serif;
@@ -18,16 +17,14 @@ p{
 
 .container{
   width: 1450px;
+  max-width: 1450px;
   margin: 0 auto;
-}
-
-.container header{
-  box-shadow: 0px 0px 0.8px 0px;
 }
 
 header{
   display: flex;
   padding: 1rem;
+  box-shadow: 0px 0px 0.8px 0px;
 }
 
 header nav{
@@ -111,6 +108,24 @@ nav ul {
   align-items: center;
   border: 1px solid rgba(128, 128, 128, 0.342);
   height: 33px;
+}
+
+.border-textos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.342);
+  width: 700px;
+  margin: 40px 0px 40px 0px;
+}
+
+.border-textos-1450px{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.342);
+  width: 1450px;
+  margin: 40px 0px 40px 0px;
 }
 
 .container-fotos{
@@ -246,7 +261,6 @@ nav ul {
   align-items: center;
   width: 300px;
   gap: 20px;
-  padding: 5px 0px 5px 0px;
 }
 
 .anfitriao h6{
@@ -254,7 +268,6 @@ nav ul {
 }
 
 .anfitriao p{
-  margin-top: 8px;
   font-size: 14px;
 }
 
@@ -265,7 +278,6 @@ nav ul {
 }
 
 .setores-4-img{
-  padding: 32px 0px 32px 0px;
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -289,7 +301,7 @@ nav ul {
 }
 
 .titulo-infos-airbnb{
-  margin-top: 40px;
+
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -332,33 +344,33 @@ span{
 }
 
 .enviar-encerrado{
-
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   padding-top: 60px;
   padding-left: 70px;
-  gap: 15px;
+  gap: 23px;
 
 }
 
 .box-encerrado{
   background-color: #ffffff;
   padding: 0.5rem;
-  width: 200px;
+  width: 400px;
   text-align: center;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .button-enviar-pedido{
-  font-size: 22px;
+  font-size: 28px;
   color: white;
   text-align: center;
   background-color: #b0b0b0;
-  padding: 1rem;
-  width: 250px;
+  padding: 1.2rem;
+  width: 400px;
   border-radius: 10px;
   cursor: not-allowed;
 }
@@ -367,7 +379,6 @@ span{
   display: flex;
   width: 1450px;
   justify-content: start;
-  margin-top: 96px;
   flex-direction: column;
 }
 
@@ -380,7 +391,7 @@ span{
 }
 
 .descricao-anfitriao{
-  padding: 32px 0px 32px 0px;
+
   display: flex;
   flex-direction: column;
   width: auto;
@@ -390,7 +401,6 @@ span{
 
 .descricao-anfitriao .estudo-anfitriao, .trabalho-anfitriao, .skill-anfitriao, .hobby-anfitriao, .pets-anfitriao{
   display: flex;
-  width: 700px;
   gap: 35px;
   width: 470px;
 }
@@ -402,7 +412,7 @@ span{
 .apresentacao-anfitriao{
   width: 720px;
   display: flex;
-  padding: 32px 0px 32px 0px;
+  padding: 32px 0px 0px 0px;
 }
 
 .img-av-produto, .texto-av-produto{
@@ -516,7 +526,6 @@ span{
 .tipo-acomodacao{
   display: flex;
   flex-direction: column;
-  margin: 70px 0px 50px 0px;
   gap: 30px;
   width: 700px;
 }
@@ -574,7 +583,6 @@ span{
 .title-comodidade{
   width: 300px;
   display: flex;
-  padding: 32px 0px 32px 0px;
   text-align: center;
 }
 
@@ -657,10 +665,23 @@ span{
   align-items: start;
 }
 
+.texto-precos-produto{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  padding: 20px 0px 20px 0px;
+}
+
 .texto-precos-produto h2{
-  width: 340px;
   color: #222222;
-  font-size: 22px;
+  font-size: 28px;
+  font-weight: 550;
+}
+
+.texto-precos-produto span{
+font-size: 18px;
+font-weight: 200;
 }
 
 .box-checks-produto-header{
@@ -699,13 +720,16 @@ span{
 }
 
 .check-in p, .check-out p{
-  margin: 3px;
-  font-size: 12px;
+  margin: 2px;
+  font-size: 13px;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
 }
 
 .check-in h3, .check-out h3{
-  font-size: 14px;
+  font-size: 16px;
   padding-left: 4px;
+  font-weight: 200;
 }
 
 .footer-box-check{
@@ -750,16 +774,39 @@ span{
 }
 
 .precos-produto-temp{
-  display: flex;  
-  flex-direction: column;
+  font-size: 14px;
   width: 400px;
-  justify-content: space-between;
-  align-items: start;
+}
+
+.valor-servicos{
+  color: #222222;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.valor-servicos span{
+  text-decoration: underline;
+  font-weight: 100;
+}
+
+.valor-dias h2{
+  font-weight: 100;
+}
+
+.total-s-impostos span{
+  font-weight: 600;
 }
 
 .diaria{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.total-s-impostos{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 62px;
 }
 
 .denunciar-produto{
