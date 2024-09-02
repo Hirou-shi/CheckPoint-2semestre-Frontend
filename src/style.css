@@ -310,12 +310,14 @@ nav ul {
 }
 
 .titulo-infos-airbnb{
-
+  background-color: #6a6a6a4b;
+  border-radius: 8px;
+  padding: 15px 0px 15px 0px;
   font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  width: 700px;
   font-weight: normal;
 }
 
@@ -324,7 +326,7 @@ nav ul {
 }
 
 .infos-airbnb{
-  margin-top: 70px;
+  margin-top: 52px;
   font-size: 18px;
   gap: 30px;
   display: flex;
