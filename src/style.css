@@ -429,7 +429,7 @@ span{
 }
 
 .comentarios-produto{
-  margin-top: 32px;
+  margin-top: 15px;
   display: flex;
   width: 1450px;
 }
@@ -491,7 +491,7 @@ span{
 .comentarios-produto{
   display: flex;
   justify-content: space-between;
-  height: 300px;
+  height: 240px;
 }
 
 .todos-comentarios{
@@ -619,10 +619,6 @@ span{
 
 .comentario-esquerda{
   width: 540px;
-}
-
-.container-regras-full{
-  padding: 100px 0px 10px 0px;
 }
 
 .container-regras-casa{
