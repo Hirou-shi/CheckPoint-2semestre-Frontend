@@ -829,3 +829,24 @@ font-weight: 200;
 .hospede-box-unit{
   font-size: 10px;
 }
+
+.container-header-mobile{
+  display:none;
+}
+
+@media (max-width: 410px) {
+  .container-header{
+    display:none;
+  }
+
+  .container-secao {
+    display:none;
+  }
+
+  .container-header-mobile {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
