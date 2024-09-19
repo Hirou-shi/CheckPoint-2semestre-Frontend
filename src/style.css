@@ -830,8 +830,18 @@ font-weight: 200;
   font-size: 10px;
 }
 
-.container-header-mobile{
+.container-header-mobile {
   display:none;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.acomodacoes-mobile {
+  justify-content: space-around;
+  padding: 1em;
+  align-items: center;
+  margin: 0;
 }
 
 @media (max-width: 410px) {
@@ -845,8 +855,6 @@ font-weight: 200;
 
   .container-header-mobile {
     display:flex;
-    align-items: center;
-    justify-content: space-between;
   }
 }
 
